@@ -1,8 +1,8 @@
-%Capacitance standard C2092
-%AH11, 10 pF
-CHL = 10E-12; %Capacitance to be measured (2-port, high to low)
+%Capacitance standard C2093 
+%AH11, 100 pF
+CHL = 100E-12; %Capacitance to be measured (2-port, high to low)
 DHL = 1e-5; %and loss
-CH = (131.21-40.65)*1E-12-CHL; 
+CH = (242.42-40.65)*1E-12-CHL; 
 %Capacitance H to ground of the standard - considers 0 dissipation
 %Reading of the LCR meter at port H with port L shorted.
 %CH is the reading, minus the LCR meter offset, minus CHL
